@@ -1,2 +1,2 @@
-# DeLaun-Robinson-Cybersecurity-Portfolio
-Professional cybersecurity portfolio showcasing hands-on projects in network security, digital forensics, vulnerability management, Linux administration, PKI implementation, risk assessment, HIPAA compliance, incident response, enterprise security architecture, and secure application development completed through real-world academic simulations.
+# DeLaun-Robinson-Technology-Portfolio
+Professional technology portfolio showcasing hands-on projects in cybersecurity, networking, IT support, system administration, digital forensics, risk management, project planning, and business technology solutions. Demonstrates practical experience analyzing problems, securing systems, troubleshooting technical issues, and supporting organizational technology objectives.
