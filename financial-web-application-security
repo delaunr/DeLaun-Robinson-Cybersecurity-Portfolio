@@ -1,0 +1,18 @@
+Recommendations Report: Application Security for Financial Services Web Application
+
+	In the current web application, transactions between the transaction server and the web front end are sent in clear text over HTTP. This is a significant security concern because anyone intercepting the network traffic could access sensitive client information or internal financial data. In a financial services environment, this could result in data breaches, regulatory issues, and loss of trust. To prevent this, the development team should implement TLS/HTTPS encryption for all communications. Additionally, sensitive XML components should be encrypted or digitally signed to ensure the data is not altered or exposed during transmission. Applying the Principle of Confidentiality is critical in this scenario because it ensures that client information and transaction data remain private and protected from unauthorized access. Integrating encryption and secure communication practices from the start would eliminate these risks before the system goes live.
+Another area of concern is the way the system handles XML components and data displayed on the web front end. Currently, the system transmits XML with weak metadata, and the web front end uses client-side scripts for log-in and displaying data in clear text. This creates the potential for Cross-Site Scripting (XSS) or injection attacks, which could allow an attacker to run malicious scripts in employees’ browsers or manipulate the interface to gain unauthorized access. The team should implement strong input validation, output encoding, and XML schema validation to prevent these vulnerabilities. Server-side session management should replace client-side scripts for authentication to strengthen security. These steps follow the Defense in Depth principle, which provides multiple layers of protection so that if one control fails, others remain in place to protect the system. By building these protections into the application from the beginning, the development team can reduce the likelihood of successful attacks and make the system more resilient.
+Having a security analyst involved from the start of the development process ensures that vulnerabilities like unencrypted communication and weak input/output handling are identified and mitigated early. Applying fundamental security design principles, such as Confidentiality and Defense in Depth, helps prevent costly security incidents, ensures regulatory compliance, and improves the overall security posture of the application. Security guidance also educates the development team on secure coding practices, which reduces risks and supports the creation of safer applications from the beginning of the project.
+
+
+
+
+
+
+
+
+
+
+
+References
+•	OWASP Foundation. (2024). The Top 10 Proactive Controls. OWASP Foundation. https://top10proactive.owasp.org/the-top-10/
