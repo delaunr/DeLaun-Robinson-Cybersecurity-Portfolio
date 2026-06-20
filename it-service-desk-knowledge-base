@@ -1,0 +1,364 @@
+Ticket # INC0352668
+Issue: User can’t access SharePoint website
+
+Gather Information
+•	Is the user receiving any errors or messages when trying to access SharePoint?
+•	What browser is the user using?
+•	Did the user try a different device?
+•	Is the user able to access other programs?
+
+Identify What Has Changed
+•	Review the network to see if there have been any updates or security patches.
+
+Create a Hypothesis
+•	The user could be using an outdated browser.
+•	User’s permissions may have changed.
+•	Check SharePoint to see if there was an update to SharePoint’s server or if there is any ongoing maintenance.
+
+Determine the Appropriate Fix
+•	User should try clearing cache and cookies before accessing SharePoint.
+•	Try accessing SharePoint from another network.
+•	Check to see if the user’s rights need to be updated if they are receiving a permissions error.
+•	Ask them to install a browser they do not have already and try with that.
+
+Implement the Fix
+•	If the issue is regarding the browser, clear cache and cookies or update the browser.
+•	Troubleshoot network settings or escalate to network team if networking is the issue.
+•	Update user rights if permissions are the issue.
+•	Confirm with the user that they can access the SharePoint site.
+
+Ensure Satisfaction
+•	Confirm user has access to SharePoint.
+•	Offer additional assistance if needed.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+Ticket # INC0354837
+Issue: When I boot my desktop, I get a blue screen. The help desk upgraded my machine yesterday to Windows 10. What do I need to do? Please send someone to my desk. I'm on the 3rd floor at the main building.
+
+Gather Information
+•	Is the system displaying an error message?
+•	At what point did the error occur during the installation process?
+•	Did you confirm you were using the correct login credentials?
+•	Did you make any changes to the system configuration?
+•	Did you try to restart in safe mode?
+
+Identify What Has Changed
+•	The user’s system was updated to Windows 10, possibly causing changes within the prior existing drivers or software when it finished.
+
+Create a Hypothesis
+•	Drivers may be incompatible.
+•	Installation may not have fully completed or corrupted during the installation process.
+•	Previously downloaded programs may not be compatible with Windows 10.
+
+Determine the Appropriate Fix
+•	Use the settings app to clear the previous files, this will allow the system to re-download the upgrade bits.
+•	Troubleshoot the errors with the “SetupDiag” tool which offers an optional download to diagnose and determine why the update or upgrade failed to apply.
+
+Implement the Fix
+•	Reboot system in Safe Mode.
+•	Reinstall/Update drivers to ensure they are compatible with Windows 10.
+•	Redownload the Windows 10 update.
+•	Delete any programs that are conflicting with the Windows 10 update.
+•	Confirm system has booted correctly.
+
+Ensure Satisfaction
+•	Verify the system reboots without the blue screen.
+•	Check to see if the user is experiencing any other issues.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+Ticket # INC0352699
+Issue: HOU Security Console is not allowing logins
+
+Gather Information
+•	Is there an error message showing up when you attempt to login?
+•	Is this your first time logging in or were you able to login prior to this?
+•	Did you recently update your login credentials?
+•	Are other users within the department experiencing these issues as well?
+
+Identify What Has Changed
+•	Check to see if there have been any recent updates to the Security Console and if the user’s credentials or permissions have been modified.
+
+Create a Hypothesis
+•	Users may be logging in with the incorrect credentials.
+•	Data administrator may have altered users’ permissions.
+•	Security Console may be experiencing ongoing maintenance.
+
+Determine the Appropriate Fix
+•	Check user’s permissions to ensure they are correct.
+•	Verify they are inputting their credentials in correctly.
+•	Try logging into a different account to confirm if it is not an error on Security Console’s end.
+•	Contact Security Console to confirm if they are experiencing any ongoing maintenance.
+
+Implement the Fix
+•	Update user’s login credentials.
+•	Confirm and resolve any issues with Security Console.
+•	Confirm user can login successfully.
+
+Ensure Satisfaction
+•	Confirm the user can login.
+•	Address any further concerns they may have.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+
+
+
+
+
+Ticket # INC0352723
+Issue: Hello, may we add the capabilities to my DocuSign account for me to be able to send documents for signatures
+
+Gather Information
+•	What capabilities are you referring to add?
+•	Are you new to using DocuSign?
+•	Are you referencing upgrading current capabilities?
+•	What is the current process for sending documents for signatures?
+•	Is sending documents for signatures part of your job description?
+
+Identify What Has Changed
+•	Check to see if the user’s job responsibilities have recently changed, if DocuSign has recently updated, and if there were any changes to the user’s account permissions.
+
+Create a Hypothesis
+•	The user does not have permission to access this feature.
+•	DocuSign does not offer this capability.
+
+Determine the Appropriate Fix
+•	Check user permissions to inquire what they have access to.
+•	Check with DocuSign to see if there are any features that cater to this request.
+
+Implement the Fix
+•	Assign the user the proper permissions.
+•	Contact a DocuSign administrator to coordinate any updates to the user’s permissions or add any licensing.
+•	Confirm user can utilize the requested feature.
+
+Ensure Satisfaction
+•	Confirm the user can now send documents for signatures in DocuSign.
+•	Adrees any additional questions or concerns.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+
+
+
+
+
+Ticket # INC035946
+Issue: When I turn on my PC, I receive this error on my screen. "Error loading Operating System". Can someone remote to my machine or come by to see what is going on?
+
+Gather Information
+•	Is there an error message showing up when you attempt to boot the PC?
+•	Is this your first time loading the PC or were you able to load it prior to this?
+•	Did you recently update your PC?
+•	Are other users within the department experiencing these issues as well?
+•	Is there any data that you need backed up?
+
+Identify What Has Changed
+•	Check to see if there are any changes to the system.
+
+Create a Hypothesis
+•	The loading sequence may be incorrect.
+•	The hard drive may not be recognized.
+•	OS is incompatible.
+
+Determine the Appropriate Fix
+•	Try running a disk check or repairing the hard drive.
+•	Backup data and reinstall OS.
+•	Reach out to a recovery service to help recover data to fix OS system issue.
+
+Implement the Fix
+•	Use the check disk tool to scan the hard drive for errors and attempt to fix them.
+•	Backup data and reinstall OS.
+•	Verify system boots up correctly without error message showing up.
+
+Ensure Satisfaction
+•	Confirm the system boots correctly and the error is resolved.
+•	Address any further concerns or questions they may have.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+
+
+
+
+
+
+Chat Box
+Issue: User is unable to edit a PDF
+
+Gather Information
+•	User reached out due to her not being able to edit a PDF. After inquiring, I found the user did not have Adobe Acrobat Pro installed on her computer. User confirmed this by stating that she received an error stating “Access Denied”.
+
+Identify What Has Changed
+•	The user was not able to edit the PDF because she did not have the required software on her system.
+
+Create a Hypothesis
+•	User does not have Adobe Acrobat Pro installed on her computer.
+
+Determine the Appropriate Fix
+•	Create a service ticket for the customer to have Adobe Acrobat Pro installed on her computer.
+
+Implement the Fix
+•	A tech was assigned to the users’ ticket, also making sure to note that the customer has a meeting that will last about an hour.
+
+Ensure Satisfaction
+•	User was satisfied with the proposed solution and timeline.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chat Box
+Issue: User is not able to print from his desktop computer
+
+Gather Information
+•	User is having issues with printing from his desktop computer. This is not the first time a tech as been dispatched to fix this issue.
+
+Identify What Has Changed
+•	Nothing has changed, the user is continuously experiencing the same issues.
+
+Create a Hypothesis
+•	Ther may be a hardware issue, incorrect printer settings, or the software may not have been correctly installed onto the user’s desktop.
+
+Determine the Appropriate Fix
+•	Escalate the issue to dispatch a senior tech to the user’s workstation. Pushing to have them there within the next 15 minutes.
+
+Implement the Fix
+•	A senior tech was sent to the user’s workstation to address the issue. If there were not any techs available, the user stated that he does have another way to share the documents during the meeting.
+
+Ensure Satisfaction
+•	Users were satisfied with the proposed solution and timeline.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transcript from caller #1
+Issue: User reset her password and cannot remember what it is
+
+Gather Information
+•	User contacted us regarding her not being able to login with her password. She stated that it was expired, and she recently created a new password that she cannot remember. Once trying to reset her password through a text link, user stated that it was not working got her.
+
+Identify What Has Changed
+•	User recently reset her password and cannot remember what she reset it to.
+
+Create a Hypothesis
+•	User was either using her previous password or a different password for another login.
+
+Determine the Appropriate Fix
+•	Guide user through resetting her password, reassuring that she was not using a previous password.
+
+Implement the Fix
+•	User implied that her password was reset successfully. Also advised users to try logging in on her desktop.
+
+Ensure Satisfaction
+•	Ensured Customer was able to reset her password and login successfully on her mobile device.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transcript from caller #2
+Issue: User unable to access Wi-Fi in the café of the building
+
+Gather Information
+•	User stating that he is unable to login to the companies Wi-Fi while in the café of the building. He stated that it was working fine while he was at his desk. User also acknowledged he was using a Macbook Pro with MacOS Catalina 10.15.4.
+
+Identify What Has Changed
+•	The user moved from his desk to the café of the building.
+
+Create a Hypothesis
+•	Users may not be selected the correct Wi-Fi or entered in the incorrect information.
+
+Determine the Appropriate Fix
+•	Guide the user through how to access the CafeNet Wi-Fi.
+
+Implement the Fix
+•	Guided the user through accessing the CafeNet Wi-Fi login, advising him to input his credentials in order to successfully gain access.
+
+Ensure Satisfaction
+•	Ensured user was able to connect to the Wi-Fi and access the internet before ending the call.
+
+Document the Solution
+•	Document information provided by the user, what has changed, hypothesis, and the fix.
