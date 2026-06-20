@@ -1,0 +1,79 @@
+I.	Detection
+1. Describe the following best practices or methods for detecting a threat actor.
+Awareness	Subscribe to a reliable threat intelligence feed for real-time data on threats. This information can be used to make your security better at detecting and handling potential risks
+Auditing	Regularly audit system logs for unusual patterns like failed logins or unexpected data transfers, which may indicate a threat actor's presence.
+Monitoring	Use advanced tools to monitor network communication for unusual patterns like data spikes or strange protocols, which typically indicate a threat is present.
+Testing	Regularly conduct penetration testing and exercises that simulate real world attacks to find and fix system weaknesses before they can be exploited by real threats.
+Sandboxing	Use sandboxing to check suspicious files in a safe environment. This would help find advanced malware and other threats that regular security measures might miss.
+
+Citations:
+•	Yacano, L. (2022, December 29). Monitoring for Suspicious Network Activity: Key Tips to Secure Your Network. CIMCOR. https://www.cimcor.com/blog/monitoring-for-suspicious-network-activity
+•	D.21.1 - Inspections and auditing. (n.d.). Retrieved from https://typist.risk-redux.io/information_types/D.21.1
+
+ 
+
+II.	Characterization
+2. Briefly define the following threat actors.
+Individuals who are “shoulder surfers”	Individuals who try to gain unauthorized access by looking over someone's shoulder. They rely on visual observation to capture passwords, PINs, or other confidential information.
+Individuals who do not follow policy	Threat actors who fall into this category are insiders who intentionally violate security policies. This can involve employees or contractors knowingly engaging in activities that compromise the organization's security.
+Individuals using others’ credentials	Threat actors who gain unauthorized access by using stolen usernames and passwords. They use methods like phishing, credential stuffing, or exploiting weak authentication to gain access these credentials.
+Individuals who tailgate	Individuals who gain unauthorized physical access by closely following an authorized person. This threat actor exploits gaps in physical security, bypassing access controls through social engineering or blending in with authorized personnel.
+Individuals who steal assets from company property	Threat actors are involved in physically stealing assets like equipment, devices, or proprietary information from company property. They pose a risk to physical security, attempting to steal valuable assets for personal gain or to sell on the black market.
+
+Citations:
+•	IBM. (n.d.). Threat Actor. https://www.ibm.com/topics/threat-actor
+•	Sophos. (n.d.). Threat Actors. https://www.sophos.com/en-us/cybersecurity-explained/threat-actors
+
+3. Describe the following motivations or desired outcomes of threat actors.
+Fraud	
+Fraud-motivated threat actors seek money through means like identity theft or credit card fraud.
+Sabotage	Threat actors motivated by sabotage want to disrupt an organization for strategic reasons.  This may involve disrupting critical infrastructure, interrupting services, or causing damage to systems.
+Vandalism	Threat actors motivated by vandalism aim to destroy or deface digital assets, like websites, to cause harm.
+Theft	Threat actors motivated by theft want to access and take valuable assets, like sensitive information, for personal gain or to sell.
+
+Citations:
+•	Proofpoint. (n.d.). Threat Actor. https://www.proofpoint.com/us/threat-reference/threat-actor
+•	IBM. (n.d.). Threat Actor. https://www.ibm.com/topics/threat-actor
+•	Sophos. (n.d.). Threat Actors. https://www.sophos.com/en-us/cybersecurity-explained/threat-actors
+ 
+4. Identify the company assets that may be at risk from a threat actor for the following types of institutions.
+Remember: Each company will react differently in terms of the type of assets it is trying to protect.
+Financial	The assets at risk are customers’ financial data (such as bank account details, credit card information, and transaction history), transaction systems, algorithms, trading strategies and financial models. 
+Medical	The assets at risk are patient health records, data acquired thru medical research and medical devices being compromised or sabotaged.
+Educational	The assets at risk are student and faculty personal data, research data the institution may have acquired, and online platforms used for learning.
+Government	The assets at risk are classified information, infrastructure being interrupted (such as energy or transportation), and national security, defense and intelligence would be at risk.
+Retail 	The assets at risk are customers payment information (such as credit card details), inventory management and customer loyalty program.
+Pharmaceutical	The assets at risk are research data, drug formulas, information from clinical trials, and manufacturing processes possibly being interrupted.
+Entertainment	The assets at risk are scripts, music, video content, customer data, and possible disruption of online streaming platforms.
+
+Citations:
+•	Proofpoint. (n.d.). Threat Actor. https://www.proofpoint.com/us/threat-reference/threat-actor
+•	IBM. (n.d.). Threat Actor. https://www.ibm.com/topics/threat-actor
+•	Sophos. (n.d.). Threat Actors. https://www.sophos.com/en-us/cybersecurity-explained/threat-actors
+ 
+III.	Response
+
+Choose a threat actor from Question 2 to research for the response section of the decision aid:
+Threat Actor
+Individuals who tailgate
+
+5. Describe three potential strategies or tactics that you would use to respond to and counter the threat actor you chose.
+Hint: What are the best practices for reacting to this type of threat actor?
+Strategy 1	Strategy 2	Strategy 3
+Establishing and enforcing strict access control policies, requiring employees to authenticate their identity with access cards or biometrics. Regularly update protocols, conduct training to educate employees, and implement visitor management systems to enhance security.	Employ physical security measures such as surveillance cameras, mantraps, and security personnel at entry points to deter and detect tailgating attempts. Mantraps create a two-door system, while cameras and security personnel monitor and challenge suspicious behavior, enhancing overall entry point security.	Create a culture of security awareness among employees, encouraging them to challenge unfamiliar individuals and report suspicious behavior promptly. Conduct regular security drills, establish anonymous reporting channels, and implement recognition programs to reward employees for demonstrating vigilance in preventing tailgating incidents.
+
+Citations:
+•	Shinde, S. (2023, January 30). What is Tailgating in Cybersecurity? Top 9 Preventive Measures. Emeritus. https://emeritus.org/blog/cybersecurity-what-is-tailgating-in-cybersecurity/
+•	Balaban, D. (2022, February 03). A Step-by-step Guide to Preventing Tailgating Attacks. Cybeready. https://cybeready.com/awareness-training/a-step-by-step-guide-to-preventing-tailgating-attacks/
+ 
+6. Describe three potential strategies or tactics that you would employ to reduce the likelihood of a similar threat occurring again.
+Hint: What are the best practices for proactively responding to this type of threat actor?
+Strategy 1	Strategy 2	Strategy 3
+Boost access control with multi-factor authentication, using methods like biometrics or smart cards. 	Create training programs with regular drills simulating tailgating scenarios	Improve physical security by installing turnstiles, mantraps, or security barriers to prevent unauthorized entry.
+
+Citations:
+•	Shinde, S. (2023, January 30). What is Tailgating in Cybersecurity? Top 9 Preventive Measures. Emeritus. https://emeritus.org/blog/cybersecurity-what-is-tailgating-in-cybersecurity/
+•	Balaban, D. (2022, February 03). A Step-by-step Guide to Preventing Tailgating Attacks. Cybeready. https://cybeready.com/awareness-training/a-step-by-step-guide-to-preventing-tailgating-attacks/
+ 
+7. Explain your reason for determining the threat actor you chose to research. Why are the strategies you identified appropriate for responding to this threat actor? Justify your tactics to proactively and reactively respond to this threat actor.
+To counter tailgating, improving access control, training staff appropriately, and strengthening physical security will help proactively. Employee training encourages a security-conscious culture, addressing the human element. Enhance physical security with measures like turnstiles and AI surveillance. These strategies, including regular security audits and flexible technology, form a thorough approach to reduce successful tailgating.
